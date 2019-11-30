@@ -24,6 +24,8 @@ apt --fix-broken install
 #
 apt-get install kali-linux-all
 apt-get install wine
+apt-get install libigdgmm9
+apt-get install libx265-176
 apt-get install tor
 apt-get install tor deb.torproject.org-keyring
 apt-get install libunbound2
