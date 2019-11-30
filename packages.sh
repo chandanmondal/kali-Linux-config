@@ -45,6 +45,16 @@ apt-get install tcpdump
 
 
 
+#wine
+#
+apt-get install wine
+# installing Immunity
+cd Win_tools
+wine ./ImmunityDebugger_1_85_setup.exe
+apt --fix-broken install
+cd ..
+#
+
 
 #Mobile packages
 install_ios_tools(){
